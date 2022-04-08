@@ -1,0 +1,3 @@
+VAR
+	speed : INT;
+END_VAR

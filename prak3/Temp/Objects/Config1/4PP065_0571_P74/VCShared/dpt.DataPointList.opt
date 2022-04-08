@@ -1,0 +1,7 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Users/admin/Desktop/KVBO-03-21/Khudyakov/prak2/Physical/Config1/4PP065_0571_P74/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml />
+  </BuildOption>
+</BuildOptions>

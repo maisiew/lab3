@@ -1,0 +1,20 @@
+VAR_CONFIG
+	::LED[0] AT %QX."X20DO9322".DigitalOutput02;
+	::LED[1] AT %QX."X20DO9322".DigitalOutput03;
+	::LED[2] AT %QX."X20DO9322".DigitalOutput04;
+	::LED[3] AT %QX."X20DO9322".DigitalOutput05;
+	Cyclic#1.gAxis02_DrvIf.iLifeCnt AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis02_DrvIf.iDrvOK AT %IX."8I64xxxxxxx.00x-1".ETAD_Input_Bool_02;
+	Cyclic#1.gAxis02_DrvIf.oSetTime AT %QW."8I64xxxxxxx.00x-1".SDC_SetTime;
+	Cyclic#1.::Program:speed AT %QW."8I64xxxxxxx.00x-1".LFRD_Output;
+	Cyclic#1.gAxis02_DiDoIf.iLifeCntDriveReady AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis02_DiDoIf.iLifeCntDriveEnable AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis02_DiDoIf.oDriveEnable AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_00;
+	Cyclic#1.gAxis02_ModuleOk AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_01;
+	Cyclic#1.gAxis02_ModuleOk AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_02;
+	Cyclic#1.gAxis02_ModuleOk AT %IX."8I64xxxxxxx.00x-1".ModuleOk;
+	Cyclic#1.gAxis02_DiDoIf.oDriveEnable AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_03;
+	Cyclic#1.gAxis02_DiDoIf.iDriveReady AT %IX."8I64xxxxxxx.00x-1".ETAD_Input_Bool_02;
+	::EVIRD.STATE AT %IW."8I64xxxxxxx.00x-1".ETAD_Input;
+	::EVIRD.COMMAND AT %QW."8I64xxxxxxx.00x-1".CMDD_Output;
+END_VAR
